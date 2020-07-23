@@ -4,6 +4,11 @@
 % Lista de paquetes
 \usepackage[utf8]{inputenc}
 \usepackage[spanish,es-tabla]{babel}
+\usepackage[
+    type={CC},
+    modifier={by-sa},
+    version={3.0},
+]{doclicense}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{transparent}
@@ -19,12 +24,14 @@
     \begin{titlepage}
         \centering
         {\transparent{0.8}\includegraphics[width=0.5\textwidth]{./001_Recursos/000_Logo.png}\par}
-        \vspace{1cm}
+        \vspace{10pt}
         {\bfseries\LARGE Irrigaci\'on Autom\'atica con Arduino \par}
         \vspace{1cm}
         {\large Arturo Olavarria Godoy - Arturo Olavarria Casas \par}
         \vfill
-        {\Large 23 de Julio de 2020 \par} 
+        {\large 23 de Julio de 2020 \par}
+        \vspace{10pt}
+        \doclicenseThis
     \end{titlepage}
     \input{001_abstract.tex}
     \tableofcontents
