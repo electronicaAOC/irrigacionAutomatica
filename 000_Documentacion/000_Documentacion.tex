@@ -1,0 +1,41 @@
+%Clase de documento
+\documentclass[a4paper]{article}
+
+% Lista de paquetes
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{transparent}
+\usepackage[hidelinks]{hyperref}
+
+%Opciones
+\title{Irrigaci\'on Autom\'atica con Arduino}
+\author{Arturo Olavarria Godoy - Arturo Olavarria Casas}
+\setlength{\parskip}{10pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+    \begin{titlepage}
+        \centering
+        {\transparent{0.8}\includegraphics[width=0.5\textwidth]{./001_Recursos/000_Logo.png}\par}
+        \vspace{1cm}
+        {\bfseries\LARGE Irrigaci\'on Autom\'atica con Arduino \par}
+        \vspace{1cm}
+        {\large Arturo Olavarria Godoy - Arturo Olavarria Casas \par}
+        \vfill
+        {\Large 23 de Julio de 2020 \par} 
+    \end{titlepage}
+    \input{001_abstract.tex}
+    \tableofcontents
+    \input{002_materiales.tex}
+    
+
+    \section{Desarrollo experimental}
+    \section{Análisis de resultados}
+    \begin{itemize}
+        \item lala
+    \end{itemize}
+    \section{Conclusiones}
+    \section{Fuentes}
+\end{document} 
